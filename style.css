@@ -7,7 +7,7 @@ body{
 }
 
 .container {
-    width: 300px;
+    width: 400px;
     padding: 32px;
     border-radius: 10px;
     box-shadow: 0 4px 16px #ccc;
@@ -52,7 +52,7 @@ body{
 .form__label{
     font-weight: bold;
     font-size: 20px;
-    letter-spacing: 0px;
+    letter-spacing: 0;
 }
 
 .form__button{
@@ -68,7 +68,8 @@ body{
 
 .switch {
     position: relative;
-    bottom: 21px;
+    bottom: 55px;
+    left: 60px;
     display: inline-block;
     width: 63px;
     height: 40px;
@@ -97,7 +98,7 @@ body{
     content: "";
     height: 36px;
     width: 36px;
-    left: 2px;
+    left: 1px;
     bottom: 2px;
     background-color: white;
     -webkit-transition: .4s;

@@ -19,13 +19,13 @@ echo "<link rel='stylesheet' href='style.css'>";
 <div class="container">
     <h1 class="form__title">Task list</h1>
     <div>
-    <form action="/addwork.php" method="post">
-        <input class="form__input" name="work" type="text" placeholder="Enter text...">
-        <button class="form__button" name="btn" type="submit">ADD</button>
-    </form>
-    <form action="/deleteall.php" method="post">
-        <button class="form__button" name="btnrmall" type="submit">REMOVE ALL</button>
-    </form>
+        <form action="/addwork.php" method="post">
+            <input class="form__input" name="work" type="text" placeholder="Enter text...">
+            <button class="form__button" name="btn" type="submit">ADD</button>
+        </form>
+        <form action="/deleteall.php" method="post">
+            <button class="form__button" name="btnrmall" type="submit">REMOVE ALL</button>
+        </form>
     </div>
     <br>
 
@@ -56,9 +56,6 @@ echo "<link rel='stylesheet' href='style.css'>";
                 '</form>';
         }
     }
-
-
-
     ?>
 </div>
 
